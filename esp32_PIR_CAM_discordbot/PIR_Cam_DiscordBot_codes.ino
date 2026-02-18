@@ -12,8 +12,8 @@
 #include "soc/rtc_cntl_reg.h"
 
 // Main WiFi for internet access (Discord uploads)
-const char* ssid     = "VIP";
-const char* password = "30Mby20301heart";
+const char* ssid     = "WIFI NAME";
+const char* password = "WIFI PASSWORD";
 
 // Access Point for PIR connection
 const char* apSSID     = "ESP32-CAM-AP";
@@ -21,7 +21,7 @@ const char* apPassword = "camera123";
 
 // Discord webhook
 const char* discordHost = "discord.com";
-const char* discordPath = "/api/webhooks/1473522025455685705/SrieDQEjLJs1sPaWOV-e96mJuVdVvT5Nu0UgOQ49hQCf5J39Vob9ZP4kFQI7L2CE6r4F";
+const char* discordPath = "WEBHOOK API";
 
 WebServer server(80);
 WiFiClientSecure clientTLS;
